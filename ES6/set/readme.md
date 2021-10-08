@@ -64,3 +64,20 @@ let arr2 = [3, 4, 5, 6, 7, 8]
 
 let res = new Set(arr1.filter(item => s2.has(item)))
 ```
+
+4. 求数组差集
+
+```
+let arr1 = [1, 2, 3, 4, 5]
+let arr2 = [3, 4, 5, 6, 7, 8]
+
+let res = new Set(...arr1.filter(item => !s2.has(item)), ...arr2.filter(item => !s1.has(item)))
+```
+
+## WeakSet
+
+在WeakSet中只能存放对象
+
+```
+
+```
